@@ -1,0 +1,52 @@
+
+
+@font-face {
+    font-family: 'Potti Sreeramilu';
+    src: url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf'),
+    url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'georgia';
+    src: url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf'),
+    url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #f2f2f2;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 0.25in;
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight:900;
+    font-size:50px;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.link {
+    color: #008080;
+}
+
+
+.telugu {
+    font-family: 'Potti Sreeramilu' ;
+}
+
+
+
