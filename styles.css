@@ -22,9 +22,10 @@
 
 body {
     background-color: #f2f2f2;
-    margin-top: 200px;
-    margin-left: 250px;
-    margin-right: 250px;
+    max-width: 60vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    margin-right: 20vw; 
     line-height: 0.25in;
 }
 
@@ -48,5 +49,8 @@ body {
     font-family: 'Potti Sreeramilu' ;
 }
 
+.avatar{
+
+}
 
 
