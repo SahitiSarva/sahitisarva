@@ -1,32 +1,33 @@
 
 
-@font-face {
-    font-family: 'Potti Sreeramilu';
-    src: url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf'),
-    url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf');
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'georgia';
-    src: url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf'),
-    url('fonts/Potti Sreeramulu Regular/Potti Sreeramulu Regular.otf') format('otf');
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Light.ttf') format('ttf'),
+    url('https://fonts.googleapis.com/css2?family=Roboto') format('ttf');
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     font-display: swap;
-}
+} */
+
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto');
+    font-weight:500;
+    font-style: thin;
+} */
+
 
 body {
-    background-color: #f2f2f2;
-    max-width: 60vw;
-    margin-top: 5vw;
+    background-color:#ffffff;
+    max-width: 80vw;
+    margin-top: 2vw;
     margin-left: 10vw;
-    margin-right: 20vw; 
+    margin-right: 10vw; 
     line-height: 0.25in;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .title {
@@ -34,19 +35,28 @@ body {
     margin-bottom: 50px;
     font-weight:900;
     font-size:50px;
+    /* font-family: 'Arial', serif; */
+    font-family: 'Nanum Myeongjo', serif;  
 }
 
 .intro {
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .link {
-    color: #008080;
+    color: #141e3b;
 }
 
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
 
 .telugu {
-    font-family: 'Potti Sreeramilu' ;
+    font-family: 'Noto Serif Telugu', serif;
+    font-size: 20px;
 }
 
 .avatar{
