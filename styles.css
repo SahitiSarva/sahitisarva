@@ -112,6 +112,7 @@ img{
 
 .project_title{
     font-family: 'Nanum Myeongjo', serif;  
+    max-width: 30vw;
 }
 
 
