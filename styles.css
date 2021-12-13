@@ -18,6 +18,10 @@
     font-style: thin;
 } */
 
+head {
+    background-color:#ffffff;
+    padding-bottom: 200px;
+}
 
 body {
     background-color:#ffffff;
@@ -28,6 +32,7 @@ body {
     line-height: 0.25in;
     font-family: 'Roboto', sans-serif;
     text-align: justify;   
+    /* padding-top: 200px; */
     
 }
 
@@ -48,20 +53,55 @@ body {
     text-justify: inter-word;
 }
 
+.projects_intro {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 80vw;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
 .link {
-    color: #141e3b;
+    color: #21375e;
+    text-decoration: none;
 }
 
-img_square{
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
+.img1{
+    width: 350px;
+    height: 200px;
+    align-items: left;
 }
 
-img {
-    border-radius: 50%;  
-     width: 100px;
-    /*height: 100px; */
+.svg{
+    /* position: absolute; */
+    width: 350px;
+    height: 200px;
+    /* left: -42px;
+    top: -8px; */
+    bottom: -5px;
+    align-items: right;
+}
+
+
+/* img {
+    
+display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+} */
+
+.img_cropper {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px;  
+}
+
+.logo {
+    /* border-radius: 50%;  */
+    width: 40px; 
+    height: 40px;  
 }
 
 .telugu {
@@ -77,13 +117,14 @@ img {
     margin-top: 3vw;
     /* margin-left: 60vw;  */
     display:grid;
-    grid-gap: 5px;
+    grid-gap: 2px;
     font-family: 'Nanum Myeongjo', serif;
-    color: #141e3b;
+    color: #21375e;
     font-style: normal;
     text-decoration: none;
     justify-items: left;
     align-items: center;
+    column-gap: 0px;
     
 }
 
@@ -106,6 +147,7 @@ img {
     grid-column-start: 2;
     grid-column-end: 2 ;
     text-decoration: none;
+    color: #21375e;
 }
 
 .project {
@@ -120,6 +162,7 @@ img {
     grid-row-end: 1; */
     grid-column-start: 7;
     grid-column-end: 7 ;
+    /* max-width: 1vw; */
 }
 
 .Github {
@@ -127,6 +170,7 @@ img {
     grid-row-end: 1; */
     grid-column-start: 8;
     grid-column-end: 8 ;
+    /* width: 20px; */
 }
 
 .home_page_projects {
@@ -146,7 +190,7 @@ img {
     /* margin-top: 30vw; */
     /* margin-bottom: 150px; */
     font-weight:900;
-    font-size:40px;
+    font-size:30px;
     /* font-family: 'Arial', serif; */
     font-family: 'Nanum Myeongjo', serif;  
 }
@@ -161,6 +205,7 @@ img {
 .project_title{
     font-family: 'Nanum Myeongjo', serif;  
     max-width: 30vw;
+    font-size: 20px;
 }
 
 
