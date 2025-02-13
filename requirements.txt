@@ -1,7 +1,8 @@
-echo Flask==2.1.1 > requirements.txt
-echo Werkzeug==2.1.1 >> requirements.txt
-echo Jinja2==3.1.1 >> requirements.txt
-echo itsdangerous==2.1.2 >> requirements.txt
-echo MarkupSafe==2.1.1 >> requirements.txt
-echo click==8.0.3 >> requirements.txt
-echo waitress==2.1.2 >> requirements.txt  # If deploying on Windows
+Flask==2.1.1
+Werkzeug==2.1.1
+Jinja2==3.1.1
+itsdangerous==2.1.2
+MarkupSafe==2.1.1
+click==8.0.3
+waitress==2.1.2  # If deploying on Windows
+
