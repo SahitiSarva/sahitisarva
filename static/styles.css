@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+    background-color: #ffffff;
+    max-width: 80vw;
+    margin: 2vw auto;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+/* Headings */
+.title {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.projects_intro {
+    font-size: 18px;
+    max-width: 80vw;
+    text-align: left;
+}
+
+/* Links */
+.link {
+    color: #21375e;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+.img1, .svg {
+    width: 350px;
+    height: 200px;
+    display: block;
+}
+
+.img_cropper {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.telugu {
+    font-family: 'Noto Serif Telugu', serif;
+    font-size: 20px;
+}
+
+/* Navigation Pane */
+.navigation_pane {
+    background-color: #ffffff;
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation_pane a {
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #21375e;
+    font-weight: bold;
+}
+
+/* Header with Icons */
+.projects_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo_container img {
+    height: 50px;
+}
+
+.header_links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header_links img.icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Project Section */
+.projects_container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures cards are next to each other */
+    gap: 20px;
+    justify-content: flex-start; /* Align left */
+    padding: 20px;
+}
+
+/* Card Layout */
+.project_card {
+    width: 350px; /* Set fixed width */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_card:hover {
+    transform: scale(1.02);
+}
+
+.project_image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project_content {
+    padding: 15px;
+}
+
+.project_content h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.project_link {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.project_link:hover {
+    text-decoration: underline;
+}
+
+/* Storytelling Section */
+.projects {
+    margin-top: 50px;
+}
+
+.project_class {
+    text-align: left;
+    font-size: 1.8em;
+    color: #333;
+}

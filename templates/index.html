@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahiti Sarva</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Noto+Serif+Telugu:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    {% block content %}
+<!-- Navigation -->
+<div class="navigation_pane">
+    <div class="avatar">
+        <a class="link" href="{{ url_for('home') }}">
+            <img class="img_cropper" src="{{ url_for('static', filename='img/logo.jpg') }}" alt="Avatar">
+        </a> 
+    </div>
+    <div class="about">
+        <a class="link" href="{{ url_for('home') }}">About</a> 
+    </div>
+    <div class="project">
+        <a class="link" href="{{ url_for('projects') }}">Projects</a>
+    </div>
+    <div class="cv">
+        <a class="link" href="{{ url_for('static', filename='docs/Sahiti Sarva - CV.pdf') }}" target="_blank">CV</a>
+    </div>
+    <div class="LinkedIn">
+        <a href="https://www.linkedin.com/in/sahitisarva/" target="_blank">
+            <img class="logo" src="{{ url_for('static', filename='img/LinkedIn-nobg.jfif') }}">
+        </a>
+    </div>
+    <div class="Github">
+        <a href="https://github.com/SahitiSarva" target="_blank">
+            <img class="logo" src="{{ url_for('static', filename='img/Github.png') }}">
+        </a>
+    </div>
+</div>
+
+<!-- Content -->
+<h1 class="Title">Hello hello!</h1>
+
+<div class="intro">
+    I’m Sahiti. Of the many permutations of my name, my favorite is Sahityam (<a class="telugu">సాహిత్యం</a>). 
+    I only recently entered the world of public policy where I try to channel my mild frustrations from walking ill-lit streets, searching for data in developing countries, and navigating patriarchal institutions.
+    <br><br>
+    I usually spend my time writing, coding, and playing storytelling games. But I’m most proud of holding 8-hour long conversations, moving apartments on a bicycle, wearing a saree in five different styles, and a handful of amazing friends.
+    <br><br>        
+    Currently, I’m looking to tell more stories about gender, culture, and society in developing countries. I also want to document and translate oral stories from Indian regional languages*. If you have a story your grandmother handed to you, a secret stash of data waiting to be visualized, or an idea that will let us build a whole new urban mythology, I can’t wait to hear from you.  
+    Drop me an email at <b><a href="mailto:sahiti.sarva@gmail.com" target="_blank" class="link">sahiti.sarva@gmail.com</a></b>  
+    or reach out on <b><a href="https://twitter.com/sahitisarva" target="_blank" class="link">Twitter</a></b>!
+</div>
+
+<br><br>
+
+<div class="credits">
+    *I speak Telugu and Hindi and understand some Tamil. We could document/translate stories from any of them.
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Sahiti Sarva</p>
+</footer>
+{% endblock %}
+</body>
+</html>
